@@ -1,64 +1,108 @@
+/* Resets section */
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+/* Resets section */
+.logo {
+    width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none; 
+    padding: 35px;
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+    /* prblem: hover時 背景顏色會變大蓋住上面logo */
+}
+.home-title, h4 {
+    color: black;
+}
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 div {
     max-width: 1600px;
     margin: 0 auto;
 }
-nav a, #hero-msg h1, #hero-msg h4, .button-box, main section{
+#hero-msg h1, #hero-msg h4, .button-box, main section{
     text-align: center;
 }
 
-#background {
-    height: 725px;
-}
-/*12 add background-color*/
-body {
-    background-color: #fcfbfb;
-}
 header {
     background-color: rgba(20,30,13, .7);
 }
-nav a:hover {
-    background-color: black;
-    color: #d9c2a3 /*from step 13*/
+#hero-img {
+    width: 100%;
+}
+main section img {
+    box-sizing: border-box;
 }
 .book, .join {
+    text-decoration: none;
     background-color: #d9c2a3;
     color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: black;
     color: #d9c2a3 
 }
+/* main */
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
 #background {
+    height: 725px;
     background-color: #d9c2a3;
 }
-.msg {
-    background-color:rgba(20,30,13, .7);
-    color:white;
+.mountains { 
+    margin-top: 100px; /* try write look same with example */
 }
+.msg {
+    background-color:  #6f7364;;
+    color:white;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px; /* try write look same with example */
+} 
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}   
+/* /main */
+/* footer */
 footer {
     background-color: rgba(20,30,13, .7);
     color: #d9c2a3;
-}
-
-/*13 add color*/
-.home-title, h4 {
-    color: black;
-}
-/*14 add few widths*/
-.logo {
-    width: 80px;
-}
-.icon {
-    width: 80px;
-}
-#hero-img {
-    width: 100%;
-}
-
-nav a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none; /*15 add for step 15*/
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
 }
 footer a {
     font-size: 1.2em;
@@ -69,6 +113,9 @@ footer a:hover {
     text-decoration: underline;
     background-color: black;
     color: #d9c2a3 
+}
+.social img {
+    padding-top: 15px;
 }
 /*
 * {
