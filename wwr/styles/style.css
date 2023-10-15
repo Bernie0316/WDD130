@@ -36,7 +36,7 @@ nav a:hover {
     margin-top: 10px;
 }
 
-div {
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -73,6 +73,7 @@ main section img {
 }
 .card-img {
     border: 10px solid #d9c2a3;
+    border-radius: 5px;
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
